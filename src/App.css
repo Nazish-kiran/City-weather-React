@@ -1,0 +1,81 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #121212; /* Dark background */
+  color: #fff; /* White text */
+}
+
+.weather-container {
+  text-align: center;
+  background: #1e1e1e; /* Darker card background */
+  border-radius: 15px;
+  padding: 20px 40px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 400px;
+}
+
+.weather-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background: #252525; /* Dark input background */
+  color: #fff;
+  outline: none;
+  text-align: center;
+}
+
+.weather-container input::placeholder {
+  color: #888; /* Placeholder color */
+}
+
+.weather-container button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #444; /* Button background */
+  color: #fff;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.weather-container button:hover {
+  background: #fff;
+  color: #000; /* Hover effect for contrast */
+}
+
+.weather-container h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.weather-display {
+  margin-top: 20px;
+  background: #252525; /* Dark section background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  /* display: none; */
+}
+
+.weather-display p {
+  margin: 5px 0;
+  padding: 5px;
+  font-size: 16px;
+}  .weather-display .icon {
+  margin-bottom: 15px;
+}
+.weather-icon .icon {
+  margin-bottom: 15px;
+  height: 150px;
+  width: 150px;
+}
